@@ -1,0 +1,21 @@
+package program;
+import java.util.Scanner;
+public class Ex2{
+    public static void main(String [] args){
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("nhap diem toan,ly,hoa: );
+        double toan = scanner.nextDouble();
+        double ly = scanner.nextDouble();
+        double hoa = scanner.nextDouble();
+        double dtb = (toan+ly+hoa)/3;
+        if(dtb>=8){
+            System.out.println("xuat sac");
+        }else if(dtb>6,5){
+            System.out.println("tot");
+        }else if(dtb>5){
+            System.out.println("trung binh");
+        }else{
+            System.out.println("kem");
+        }
+    }
+} 
