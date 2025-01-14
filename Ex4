@@ -1,0 +1,25 @@
+package program;
+import java.util.Scanner;
+public class Ex4{
+    public static void main(String [] args){
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("nhap mot so tu 1 den 7: );
+        int n = scanner.nextInt();
+        swith(n){
+        case 1: System.out.print("chu nhat");
+        break;
+        case 2: System.out.print("thu 2");
+        break;
+        case 3: System.out.print("thu 3");
+        break;
+        case 4: System.out.print("thu 4");
+        break;
+        case 5: System.out.print("thu 5");
+        break;
+        case 6: System.out.print("thu 6");
+        break;
+        case 7: System.out.print("thu 7");
+        break;
+        }
+    }
+}       
